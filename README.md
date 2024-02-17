@@ -1,7 +1,21 @@
-The code and manuscript in this repository have a few errors worth noting that may affect results:
-1) Model selection uses the $\ell^2$ norm rather than the squared $\ell^2$ norm is shown in the manuscript.  This was an oversight in the paper and has been left as is in the code.
-2) TrainSTRidge initially passed the full data to STRidge rather than training partition of data as shown in the supplemental materials.  This has been fixed.
-3) PolyDiff initially used an even number of points.  This was not an error, per se, but was written unintentionally and is non-standard.  It has since been changed to a symmetric set about the point being differentiated.  Errors seem to be slightly improved, though change is minimal.
-4) The initial version of FoBaGreedy included in the repository contained index errors in the range of for loops for forward and backward iterations such that later terms in the library were never included.  This allowed for the method to give correct answers to some problems while erroneously failing on others.  This was fixed and does not affect the statement made in the paper regarding the greedy algorithm.  That is, for certain problems, TrainSTRidge can give the correct PDE while no value of tolerance for FoBaGreedy will.  The latter does generally perform well though.
+# PDE discovery using UBIC
+Using the uncertainty-penalized Bayesian information criterion (UBIC) originally proposed in [Adaptive Uncertainty-Penalized Model Selection for Data-Driven PDE Discovery](https://ieeexplore.ieee.org/document/10401233) to discover governing PDEs.
 
-The code has been updated to run using Python 3.  However, we stress that this repository is not actively maintained and there exist many more modern approaches that offer far better performance.  In particular, an improved implementation of PDE-FIND and related methods may be found in the [PySINDy package](https://github.com/dynamicslab/pysindy). See notebook 10 in PySINDy/examples.  The most significant barrier to the application of PDE-FIND is the sensitivity of numerical differentiation.  To this end, we strongly suggest the interested reader look into more recently developed weak forms of system and PDE identification as these lack the sensitivity to differentiation present in the current work.
+- Please first install our modified pysindy package archived at [this OneDrive link](https://chula-my.sharepoint.com/:u:/g/personal/pongpisit_t_alumni_chula_ac_th/EX7weU9tSe9BtbQjJXrGQG0Bxlj8d-nkEK6DZYsvLXbjhw) (Password: UBIC). The more updated version is avaiable at [this repository](https://github.com/Pongpisit-Thanasutives/pysindy).
+- Please visit [the Example directory](Examples/) to run experiments.
+- To use the L0BnB best-subset solver, please install [the package](https://github.com/Pongpisit-Thanasutives/l0bnb).
+
+# Citing UBIC
+
+```
+@article{thanasutives2023adaptive,
+  author={Thanasutives, Pongpisit and Morita, Takashi and Numao, Masayuki and Fukui, Ken-ichi},
+  journal={IEEE Access},
+  title={Adaptive Uncertainty-Penalized Model Selection for Data-Driven PDE Discovery},
+  year={2024},
+  volume={12},
+  pages={13165-13182},
+  doi={10.1109/ACCESS.2024.3354819}
+}
+```
+
