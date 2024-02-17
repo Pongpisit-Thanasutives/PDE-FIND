@@ -1,0 +1,318 @@
+2023-05-12 18:15:44,506 [ERROR] Task was destroyed but it is pending!
+task: <Task pending name='Task-1' coro=<Kernel.poll_control_queue() running at /Users/pongpisit/anaconda3/envs/pysr/lib/python3.10/site-packages/ipykernel/kernelbase.py:279> wait_for=<Future finished result=[<zmq.sugar.fr...t 0x17f391900>, <zmq.sugar.fr...t 0x1cd2aceb0>, <zmq.sugar.fr...t 0x1cd2aeda0>, <zmq.sugar.fr...t 0x1cd2acbf0>, <zmq.sugar.fr...t 0x1cd2adbc0>, <zmq.sugar.fr...t 0x1cd2acca0>, ...]> cb=[_chain_future.<locals>._call_set_state() at /Users/pongpisit/anaconda3/envs/pysr/lib/python3.10/asyncio/futures.py:392]>
+2023-05-30 18:02:31,636 [ERROR] Task was destroyed but it is pending!
+task: <Task pending name='Task-1' coro=<Kernel.poll_control_queue() running at /Users/pongpisit/anaconda3/envs/pysr/lib/python3.10/site-packages/ipykernel/kernelbase.py:279> wait_for=<Future finished result=[<zmq.sugar.fr...t 0x109758a90>, <zmq.sugar.fr...t 0x10aacf7f0>, <zmq.sugar.fr...t 0x10c756140>, <zmq.sugar.fr...t 0x10b965900>, <zmq.sugar.fr...t 0x10ad84670>, <zmq.sugar.fr...t 0x10aab17a0>, ...]> cb=[_chain_future.<locals>._call_set_state() at /Users/pongpisit/anaconda3/envs/pysr/lib/python3.10/asyncio/futures.py:392]>
+2023-05-30 18:27:08,729 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-05-30 18:27:08,730 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-05-30 18:27:08,731 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-05-30 18:27:08,732 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-05-30 18:27:08,733 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-05-30 18:27:08,734 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-05-30 18:28:35,817 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-05-30 18:28:35,817 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-05-30 18:28:35,818 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-05-30 18:28:35,819 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-05-30 18:28:35,820 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-05-30 18:28:35,821 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-05-30 18:31:57,134 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-05-30 18:31:57,135 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-05-30 18:31:57,136 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-05-30 18:31:57,137 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-05-30 18:31:57,138 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-05-30 18:31:57,139 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-05-30 18:35:11,710 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-05-30 18:35:11,711 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-05-30 18:35:11,712 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-05-30 18:35:11,713 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-05-30 18:35:11,714 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-05-30 18:35:11,715 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-05-30 20:08:21,981 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-05-30 20:08:21,982 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-05-30 20:08:21,983 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-05-30 20:08:21,984 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-05-30 20:08:21,985 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-05-30 20:08:21,986 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-05-30 20:22:30,448 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-05-30 20:22:30,449 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-05-30 20:22:30,450 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-05-30 20:22:30,451 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-05-30 20:22:30,452 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-05-30 20:22:30,454 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-05-30 20:39:30,469 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-05-30 20:39:30,470 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-05-30 20:39:30,471 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-05-30 20:39:30,471 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-05-30 20:39:30,472 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-05-30 20:39:30,473 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-05-30 20:42:19,355 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-05-30 20:42:19,356 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-05-30 20:42:19,357 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-05-30 20:42:19,358 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-05-30 20:42:19,359 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-05-30 20:42:19,360 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-05-30 20:43:27,798 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-05-30 20:43:27,799 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-05-30 20:43:27,800 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-05-30 20:43:27,800 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-05-30 20:43:27,801 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-05-30 20:43:27,802 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-05-30 20:48:59,512 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-05-30 20:48:59,513 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-05-30 20:48:59,513 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-05-30 20:48:59,514 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-05-30 20:48:59,516 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-05-30 20:48:59,516 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-05-31 18:05:20,178 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-05-31 18:05:20,179 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-05-31 18:05:20,180 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-05-31 18:05:20,181 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-05-31 18:05:20,182 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-05-31 18:05:20,182 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-05-31 18:07:10,310 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-05-31 18:07:10,311 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-05-31 18:07:10,312 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-05-31 18:07:10,313 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-05-31 18:07:10,314 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-05-31 18:07:10,314 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-05-31 18:15:18,840 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-05-31 18:15:18,841 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-05-31 18:15:18,842 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-05-31 18:15:18,842 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-05-31 18:15:18,843 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-05-31 18:15:18,844 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-05-31 21:35:51,464 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-05-31 21:35:51,465 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-05-31 21:35:51,466 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-05-31 21:35:51,466 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-05-31 21:35:51,468 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-05-31 21:35:51,468 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-05-31 21:41:24,131 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-05-31 21:41:24,132 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-05-31 21:41:24,132 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-05-31 21:41:24,133 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-05-31 21:41:24,134 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-05-31 21:41:24,135 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-05-31 21:45:52,750 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-05-31 21:45:52,750 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-05-31 21:45:52,751 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-05-31 21:45:52,752 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-05-31 21:45:52,753 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-05-31 21:45:52,754 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-05-31 21:46:39,232 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-05-31 21:46:39,232 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-05-31 21:46:39,233 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-05-31 21:46:39,234 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-05-31 21:46:39,235 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-05-31 21:46:39,236 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-06-03 21:09:24,894 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-06-03 21:09:24,895 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-06-03 21:09:24,896 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-06-03 21:09:24,897 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-06-03 21:09:24,898 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-06-03 21:09:24,899 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-06-03 21:09:50,614 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-06-03 21:09:50,615 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-06-03 21:09:50,616 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-06-03 21:09:50,618 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-06-03 21:09:50,620 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-06-03 21:09:50,621 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-06-04 00:19:02,003 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-06-04 00:19:02,003 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-06-04 00:19:02,004 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-06-04 00:19:02,004 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-06-04 00:19:02,006 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-06-04 00:19:02,006 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-06-04 00:19:59,589 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-06-04 00:19:59,591 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-06-04 00:19:59,592 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-06-04 00:19:59,594 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-06-04 00:19:59,596 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-06-04 00:19:59,597 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-06-04 08:41:43,272 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-06-04 08:41:43,273 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-06-04 08:41:43,273 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-06-04 08:41:43,274 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-06-04 08:41:43,275 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-06-04 08:41:43,276 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-06-04 08:42:13,206 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-06-04 08:42:13,207 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-06-04 08:42:13,208 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-06-04 08:42:13,209 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-06-04 08:42:13,210 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-06-04 08:42:13,211 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-06-04 13:36:45,959 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-06-04 13:36:45,960 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-06-04 13:36:45,960 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-06-04 13:36:45,961 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-06-04 13:36:45,962 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-06-04 13:36:45,963 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-06-04 15:55:24,600 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-06-04 15:55:24,600 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-06-04 15:55:24,601 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-06-04 15:55:24,602 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-06-04 15:55:24,603 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-06-04 15:55:24,605 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-06-04 15:56:09,886 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-06-04 15:56:09,887 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-06-04 15:56:09,888 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-06-04 15:56:09,889 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-06-04 15:56:09,891 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-06-04 15:56:09,892 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-06-05 15:55:36,367 [INFO] Set parameter Username
+2023-06-05 15:55:36,370 [INFO] Academic license - for non-commercial use only - expires 2024-06-04
+2023-06-08 15:12:14,485 [INFO] Set parameter Username
+2023-06-08 15:12:14,487 [INFO] Academic license - for non-commercial use only - expires 2024-06-04
+2023-06-08 15:15:24,233 [INFO] Set parameter Username
+2023-06-08 15:15:24,234 [INFO] Academic license - for non-commercial use only - expires 2024-06-04
+2023-06-08 15:20:18,258 [INFO] Set parameter Username
+2023-06-08 15:20:18,262 [INFO] Academic license - for non-commercial use only - expires 2024-06-04
+2023-06-08 15:29:02,256 [INFO] Set parameter Username
+2023-06-08 15:29:02,258 [INFO] Academic license - for non-commercial use only - expires 2024-06-04
+2023-06-08 16:32:31,751 [INFO] Set parameter Username
+2023-06-08 16:32:31,753 [INFO] Academic license - for non-commercial use only - expires 2024-06-04
+2023-06-08 18:00:03,114 [INFO] Set parameter Username
+2023-06-08 18:00:03,116 [INFO] Academic license - for non-commercial use only - expires 2024-06-04
+2023-06-08 18:01:18,130 [INFO] Set parameter Username
+2023-06-08 18:01:18,132 [INFO] Academic license - for non-commercial use only - expires 2024-06-04
+2023-06-08 18:21:46,156 [INFO] Set parameter Username
+2023-06-08 18:21:46,157 [INFO] Academic license - for non-commercial use only - expires 2024-06-04
+2023-06-30 21:42:34,970 [INFO] Set parameter Username
+2023-06-30 21:42:34,973 [INFO] Academic license - for non-commercial use only - expires 2024-06-04
+2023-07-02 15:13:46,410 [INFO] Set parameter Username
+2023-07-02 15:13:46,412 [INFO] Academic license - for non-commercial use only - expires 2024-06-04
+2023-07-02 16:21:49,530 [INFO] Set parameter Username
+2023-07-02 16:21:49,532 [INFO] Academic license - for non-commercial use only - expires 2024-06-04
+2023-07-04 14:27:40,142 [INFO] Set parameter Username
+2023-07-04 14:27:40,144 [INFO] Academic license - for non-commercial use only - expires 2024-06-04
+2023-07-07 14:51:37,654 [INFO] Set parameter Username
+2023-07-07 14:51:37,656 [INFO] Academic license - for non-commercial use only - expires 2024-06-04
+2023-07-08 20:01:21,527 [INFO] Set parameter Username
+2023-07-08 20:01:21,530 [INFO] Academic license - for non-commercial use only - expires 2024-06-04
+2023-07-11 22:29:18,693 [INFO] Set parameter Username
+2023-07-11 22:29:18,695 [INFO] Academic license - for non-commercial use only - expires 2024-06-04
+2023-07-11 22:35:24,367 [INFO] Set parameter Username
+2023-07-11 22:35:24,369 [INFO] Academic license - for non-commercial use only - expires 2024-06-04
+2023-07-11 22:41:50,456 [INFO] Set parameter Username
+2023-07-11 22:41:50,459 [INFO] Academic license - for non-commercial use only - expires 2024-06-04
+2023-07-11 22:43:04,112 [INFO] Set parameter Username
+2023-07-11 22:43:04,114 [INFO] Academic license - for non-commercial use only - expires 2024-06-04
+2023-07-18 20:38:23,057 [INFO] Set parameter Username
+2023-07-18 20:38:23,059 [INFO] Academic license - for non-commercial use only - expires 2024-06-04
+2023-07-20 13:19:41,090 [INFO] Set parameter Username
+2023-07-20 13:19:41,093 [INFO] Academic license - for non-commercial use only - expires 2024-06-04
+2023-07-20 13:29:04,108 [INFO] Set parameter Username
+2023-07-20 13:29:04,110 [INFO] Academic license - for non-commercial use only - expires 2024-06-04
+2023-07-23 15:39:40,981 [INFO] Set parameter Username
+2023-07-23 15:39:40,984 [INFO] Academic license - for non-commercial use only - expires 2024-06-04
+2023-07-26 00:39:25,370 [INFO] Set parameter Username
+2023-07-26 00:39:25,373 [INFO] Academic license - for non-commercial use only - expires 2024-06-04
+2023-07-29 23:45:22,061 [INFO] Set parameter Username
+2023-07-29 23:45:22,063 [INFO] Academic license - for non-commercial use only - expires 2024-06-04
+2023-07-31 11:02:03,794 [INFO] Set parameter Username
+2023-07-31 11:02:03,797 [INFO] Academic license - for non-commercial use only - expires 2024-06-04
+2023-08-06 15:15:22,544 [INFO] Set parameter Username
+2023-08-06 15:15:22,547 [INFO] Academic license - for non-commercial use only - expires 2024-06-04
+2023-08-07 15:18:59,372 [INFO] Set parameter Username
+2023-08-07 15:18:59,375 [INFO] Academic license - for non-commercial use only - expires 2024-06-04
+2023-08-07 16:27:32,595 [INFO] Set parameter Username
+2023-08-07 16:27:32,598 [INFO] Academic license - for non-commercial use only - expires 2024-06-04
+2023-08-10 15:49:06,262 [INFO] Set parameter Username
+2023-08-10 15:49:06,264 [INFO] Academic license - for non-commercial use only - expires 2024-06-04
+2023-08-10 21:58:22,179 [INFO] Set parameter Username
+2023-08-10 21:58:22,182 [INFO] Academic license - for non-commercial use only - expires 2024-06-04
+2023-08-10 23:53:31,052 [INFO] Set parameter Username
+2023-08-10 23:53:31,055 [INFO] Academic license - for non-commercial use only - expires 2024-06-04
+2023-08-11 17:28:28,721 [INFO] Set parameter Username
+2023-08-11 17:28:28,723 [INFO] Academic license - for non-commercial use only - expires 2024-06-04
+2023-08-11 17:30:16,328 [INFO] Set parameter Username
+2023-08-11 17:30:16,330 [INFO] Academic license - for non-commercial use only - expires 2024-06-04
+2023-08-12 17:25:56,103 [INFO] Set parameter Username
+2023-08-12 17:25:56,106 [INFO] Academic license - for non-commercial use only - expires 2024-06-04
+2023-08-12 17:38:19,117 [INFO] Set parameter Username
+2023-08-12 17:38:19,118 [INFO] Academic license - for non-commercial use only - expires 2024-06-04
+2023-08-12 19:43:17,138 [INFO] Set parameter Username
+2023-08-12 19:43:17,141 [INFO] Academic license - for non-commercial use only - expires 2024-06-04
+2023-08-12 19:51:05,629 [INFO] Set parameter Username
+2023-08-12 19:51:05,631 [INFO] Academic license - for non-commercial use only - expires 2024-06-04
+2023-08-12 19:52:32,878 [INFO] Set parameter Username
+2023-08-12 19:52:32,880 [INFO] Academic license - for non-commercial use only - expires 2024-06-04
+2023-08-12 19:55:13,291 [INFO] Set parameter Username
+2023-08-12 19:55:13,294 [INFO] Academic license - for non-commercial use only - expires 2024-06-04
+2023-08-12 19:56:21,366 [INFO] Set parameter Username
+2023-08-12 19:56:21,368 [INFO] Academic license - for non-commercial use only - expires 2024-06-04
+2023-08-12 19:58:13,020 [INFO] Set parameter Username
+2023-08-12 19:58:13,023 [INFO] Academic license - for non-commercial use only - expires 2024-06-04
+2023-08-12 20:02:28,377 [INFO] Set parameter Username
+2023-08-12 20:02:28,379 [INFO] Academic license - for non-commercial use only - expires 2024-06-04
+2023-08-12 20:03:58,997 [INFO] Set parameter Username
+2023-08-12 20:03:59,001 [INFO] Academic license - for non-commercial use only - expires 2024-06-04
+2023-08-12 21:57:48,374 [INFO] Set parameter Username
+2023-08-12 21:57:48,376 [INFO] Academic license - for non-commercial use only - expires 2024-06-04
+2023-08-13 00:06:51,313 [INFO] Set parameter Username
+2023-08-13 00:06:51,316 [INFO] Academic license - for non-commercial use only - expires 2024-06-04
+2023-08-13 15:11:42,599 [INFO] Set parameter Username
+2023-08-13 15:11:42,603 [INFO] Academic license - for non-commercial use only - expires 2024-06-04
+2023-08-13 16:07:20,283 [INFO] Set parameter Username
+2023-08-13 16:07:20,285 [INFO] Academic license - for non-commercial use only - expires 2024-06-04
+2023-08-13 16:09:45,697 [INFO] Set parameter Username
+2023-08-13 16:09:45,699 [INFO] Academic license - for non-commercial use only - expires 2024-06-04
+2023-08-13 16:10:57,746 [INFO] Set parameter Username
+2023-08-13 16:10:57,749 [INFO] Academic license - for non-commercial use only - expires 2024-06-04
+2023-08-13 16:23:59,961 [INFO] Set parameter Username
+2023-08-13 16:23:59,963 [INFO] Academic license - for non-commercial use only - expires 2024-06-04
+2023-08-14 19:53:46,021 [INFO] Set parameter Username
+2023-08-14 19:53:46,024 [INFO] Academic license - for non-commercial use only - expires 2024-06-04
+2023-08-14 21:24:45,358 [INFO] Set parameter Username
+2023-08-14 21:24:45,360 [INFO] Academic license - for non-commercial use only - expires 2024-06-04
+2023-08-14 21:33:38,370 [INFO] Set parameter Username
+2023-08-14 21:33:38,372 [INFO] Academic license - for non-commercial use only - expires 2024-06-04
+2023-08-14 22:50:09,560 [INFO] Set parameter Username
+2023-08-14 22:50:09,562 [INFO] Academic license - for non-commercial use only - expires 2024-06-04
+2023-08-14 22:53:28,227 [INFO] Set parameter Username
+2023-08-14 22:53:28,229 [INFO] Academic license - for non-commercial use only - expires 2024-06-04
+2023-08-16 15:23:01,441 [INFO] Set parameter Username
+2023-08-16 15:23:01,444 [INFO] Academic license - for non-commercial use only - expires 2024-06-04
+2023-08-16 15:29:23,242 [INFO] Set parameter Username
+2023-08-16 15:29:23,244 [INFO] Academic license - for non-commercial use only - expires 2024-06-04
+2023-08-16 16:05:25,525 [INFO] Set parameter Username
+2023-08-16 16:05:25,527 [INFO] Academic license - for non-commercial use only - expires 2024-06-04
+2023-08-16 19:18:24,059 [INFO] Set parameter Username
+2023-08-16 19:18:24,062 [INFO] Academic license - for non-commercial use only - expires 2024-06-04
+2023-08-17 14:55:13,176 [INFO] Set parameter Username
+2023-08-17 14:55:13,179 [INFO] Academic license - for non-commercial use only - expires 2024-06-04
+2023-08-17 19:26:28,997 [INFO] Set parameter Username
+2023-08-17 19:26:29,000 [INFO] Academic license - for non-commercial use only - expires 2024-06-04
+2023-08-17 19:34:01,744 [INFO] Set parameter Username
+2023-08-17 19:34:01,748 [INFO] Academic license - for non-commercial use only - expires 2024-06-04
+2023-08-19 13:53:57,891 [INFO] Set parameter Username
+2023-08-19 13:53:57,894 [INFO] Academic license - for non-commercial use only - expires 2024-06-04
+2023-08-19 13:56:40,802 [INFO] Set parameter Username
+2023-08-19 13:56:40,804 [INFO] Academic license - for non-commercial use only - expires 2024-06-04
+2023-08-19 14:06:48,473 [INFO] Set parameter Username
+2023-08-19 14:06:48,475 [INFO] Academic license - for non-commercial use only - expires 2024-06-04
+2023-08-19 14:15:07,339 [INFO] Set parameter Username
+2023-08-19 14:15:07,341 [INFO] Academic license - for non-commercial use only - expires 2024-06-04
+2023-08-19 14:16:51,036 [INFO] Set parameter Username
+2023-08-19 14:16:51,038 [INFO] Academic license - for non-commercial use only - expires 2024-06-04
+2023-08-19 14:20:32,268 [INFO] Set parameter Username
+2023-08-19 14:20:32,270 [INFO] Academic license - for non-commercial use only - expires 2024-06-04
+2023-09-30 12:53:08,144 [INFO] Set parameter Username
+2023-09-30 12:53:08,146 [INFO] Academic license - for non-commercial use only - expires 2024-06-04
+2023-09-30 13:52:02,657 [INFO] Set parameter Username
+2023-09-30 13:52:02,659 [INFO] Academic license - for non-commercial use only - expires 2024-06-04
+2023-12-17 20:11:30,647 [INFO] Set parameter Username
+2023-12-17 20:11:30,651 [INFO] Academic license - for non-commercial use only - expires 2024-06-04
+2023-12-17 20:27:36,936 [INFO] Set parameter Username
+2023-12-17 20:27:36,938 [INFO] Academic license - for non-commercial use only - expires 2024-06-04
+2023-12-17 20:29:44,517 [INFO] Set parameter Username
+2023-12-17 20:29:44,520 [INFO] Academic license - for non-commercial use only - expires 2024-06-04
+2023-12-17 20:31:41,822 [INFO] Set parameter Username
+2023-12-17 20:31:41,824 [INFO] Academic license - for non-commercial use only - expires 2024-06-04
+2023-12-17 20:34:06,706 [INFO] Set parameter Username
+2023-12-17 20:34:06,708 [INFO] Academic license - for non-commercial use only - expires 2024-06-04
+2023-12-17 20:36:05,997 [INFO] Set parameter Username
+2023-12-17 20:36:05,999 [INFO] Academic license - for non-commercial use only - expires 2024-06-04
+2023-12-17 20:47:13,346 [INFO] Set parameter Username
+2023-12-17 20:47:13,348 [INFO] Academic license - for non-commercial use only - expires 2024-06-04
+2023-12-17 22:18:55,893 [INFO] Set parameter Username
+2023-12-17 22:18:55,895 [INFO] Academic license - for non-commercial use only - expires 2024-06-04
