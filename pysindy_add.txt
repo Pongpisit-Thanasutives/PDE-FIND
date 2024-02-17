@@ -1,0 +1,31 @@
+def get_coef_list(self):
+        if hasattr(self, 'coef_list'):
+            return self.coef_list
+        else:
+            return [self.coefficients()]
+
+def validate_coef_list(self, *validation_data, target_index=0, criterion='aic'):
+        if len(validation_data) == 2:
+            X_pre, y_pre = validation_data
+        else:
+            X_pre, y_pre = self.feature_library.cached_xp_full, self.cached_x_dot
+        # Consider directly from model.get_coef_list() ไม่คิด coefficients ใหม่ จากข้อมูลทั้งหมด
+        # print_pde(model.get_coef_list()[np.argmin(np.sum((np.squeeze(np.tensordot(X_pre, np.array(model.get_coef_list()).T, axes=([-1], [0])), axis=1)-y_pre)**2, axis=0))].reshape(-1,1), model.get_feature_names())
+        if len(X_pre.shape) < 3:
+            X_pre = np.expand_dims(X_pre, 0)
+        coef_list = np.squeeze(np.array(self.get_coef_list())[:, target_index:target_index+1, :], axis=1)
+        if hasattr(self.optimizer, 'threshold'):
+            print("hasattr threshold in optimizer...")
+            # th = self.optimizer.threshold
+            th = max(self.optimizer.threshold, np.nextafter(0, 1))
+            all_indices = set([tuple(np.where(np.abs(coef_list[i])>=th)[0]) for i in range(len(coef_list))])
+        else:
+            all_indices = set([tuple(np.nonzero(coef_list[i])[0]) for i in range(len(coef_list))])
+        out = []
+        for b in range(X_pre.shape[0]):
+            ols_models = [(OLS(y_pre[:, target_index:target_index+1], X_pre[b][:, init_feature]).fit(), init_feature) for init_feature in all_indices]
+            best_ols_index = np.argmin([getattr(m, criterion) for m, _ in ols_models])
+            print_pde(ols_models[best_ols_index][0].params.reshape(-1,1), 
+                    np.array(self.get_feature_names())[list(ols_models[best_ols_index][1])], ut=f"{self.feature_names[target_index]}_t")
+            out.append(ols_models[best_ols_index])
+        return out

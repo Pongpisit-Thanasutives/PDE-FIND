@@ -1,0 +1,831 @@
+2023-03-31 21:48:12,764 [ERROR] Task was destroyed but it is pending!
+task: <Task pending name='Task-2' coro=<Kernel.poll_control_queue() running at /Users/pongpisit/anaconda3/envs/pysr/lib/python3.10/site-packages/ipykernel/kernelbase.py:279> wait_for=<Future finished result=[<zmq.sugar.fr...t 0x18ba07a00>, <zmq.sugar.fr...t 0x185ae2ae0>, <zmq.sugar.fr...t 0x185a47d70>, <zmq.sugar.fr...t 0x1843aef00>, <zmq.sugar.fr...t 0x1056721f0>, <zmq.sugar.fr...t 0x1056733d0>, ...]> cb=[_chain_future.<locals>._call_set_state() at /Users/pongpisit/anaconda3/envs/pysr/lib/python3.10/asyncio/futures.py:392]>
+2023-04-06 21:57:28,601 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-04-06 21:57:28,603 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-04-06 21:57:28,603 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-06 21:57:28,604 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-06 21:57:28,605 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-04-06 21:57:28,606 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-04-06 22:15:01,559 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-04-06 22:15:01,560 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-04-06 22:15:01,561 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-06 22:15:01,561 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-06 22:15:01,562 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-04-06 22:15:01,563 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-04-06 22:22:33,008 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-04-06 22:22:33,009 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-04-06 22:22:33,009 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-06 22:22:33,010 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-06 22:22:33,011 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-04-06 22:22:33,011 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-04-06 22:40:51,025 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-04-06 22:40:51,026 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-04-06 22:40:51,026 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-06 22:40:51,027 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-06 22:40:51,028 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-04-06 22:40:51,028 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-04-06 23:03:40,887 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-04-06 23:03:40,888 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-04-06 23:03:40,888 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-06 23:03:40,889 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-06 23:03:40,890 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-04-06 23:03:40,891 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-04-07 13:53:38,169 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-04-07 13:53:38,170 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-04-07 13:53:38,171 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-07 13:53:38,172 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-07 13:53:38,173 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-04-07 13:53:38,174 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-04-07 13:55:14,761 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-04-07 13:55:14,762 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-04-07 13:55:14,762 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-07 13:55:14,763 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-07 13:55:14,765 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-04-07 13:55:14,765 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-04-07 14:03:13,708 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-04-07 14:03:13,709 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-04-07 14:03:13,710 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-07 14:03:13,710 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-07 14:03:13,711 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-04-07 14:03:13,712 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-04-07 14:56:44,896 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-04-07 14:56:44,915 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-04-07 14:56:44,916 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-07 14:56:44,917 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-07 14:56:44,918 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-04-07 14:56:44,918 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-04-07 15:55:59,196 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-04-07 15:55:59,197 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-04-07 15:55:59,198 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-07 15:55:59,198 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-07 15:55:59,200 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-04-07 15:55:59,200 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-04-07 16:36:17,447 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-04-07 16:36:17,448 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-04-07 16:36:17,449 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-07 16:36:17,450 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-07 16:36:17,450 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-04-07 16:36:17,451 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-04-07 16:46:25,854 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-04-07 16:46:25,855 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-04-07 16:46:25,856 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-07 16:46:25,857 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-07 16:46:25,858 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-04-07 16:46:25,859 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-04-07 16:55:03,524 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-04-07 16:55:03,525 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-04-07 16:55:03,525 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-07 16:55:03,526 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-07 16:55:03,527 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-04-07 16:55:03,528 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-04-07 17:09:56,842 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-04-07 17:09:56,843 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-04-07 17:09:56,844 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-07 17:09:56,845 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-07 17:09:56,847 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-04-07 17:09:56,848 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-04-07 17:40:33,469 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-04-07 17:40:33,470 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-04-07 17:40:33,470 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-07 17:40:33,471 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-07 17:40:33,472 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-04-07 17:40:33,473 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-04-07 18:01:42,801 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-04-07 18:01:42,802 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-04-07 18:01:42,803 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-07 18:01:42,804 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-07 18:01:42,805 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-04-07 18:01:42,806 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-04-07 18:08:50,528 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-04-07 18:08:50,529 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-04-07 18:08:50,530 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-07 18:08:50,531 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-07 18:08:50,532 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-04-07 18:08:50,533 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-04-07 18:15:52,323 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-04-07 18:15:52,324 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-04-07 18:15:52,325 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-07 18:15:52,325 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-07 18:15:52,326 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-04-07 18:15:52,327 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-04-07 23:15:59,148 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-04-07 23:15:59,149 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-04-07 23:15:59,149 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-07 23:15:59,150 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-07 23:15:59,151 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-04-07 23:15:59,151 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-04-08 15:19:03,914 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-04-08 15:19:03,915 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-04-08 15:19:03,916 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-08 15:19:03,917 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-08 15:19:03,918 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-04-08 15:19:03,919 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-04-08 17:00:12,139 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-04-08 17:00:12,140 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-04-08 17:00:12,141 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-08 17:00:12,142 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-08 17:00:12,143 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-04-08 17:00:12,143 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-04-08 17:03:47,132 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-04-08 17:03:47,133 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-04-08 17:03:47,134 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-08 17:03:47,135 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-08 17:03:47,136 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-04-08 17:03:47,137 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-04-08 17:05:11,839 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-04-08 17:05:11,840 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-04-08 17:05:11,840 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-08 17:05:11,841 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-08 17:05:11,842 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-04-08 17:05:11,843 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-04-08 17:22:48,799 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-04-08 17:22:48,800 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-04-08 17:22:48,801 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-08 17:22:48,801 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-08 17:22:48,802 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-04-08 17:22:48,803 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-04-08 17:24:38,108 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-04-08 17:24:38,109 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-04-08 17:24:38,110 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-08 17:24:38,110 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-08 17:24:38,111 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-04-08 17:24:38,112 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-04-08 18:38:50,288 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-04-08 18:38:50,288 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-04-08 18:38:50,289 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-08 18:38:50,290 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-08 18:38:50,291 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-04-08 18:38:50,291 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-04-08 18:39:21,810 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-04-08 18:39:21,811 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-04-08 18:39:21,812 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-08 18:39:21,813 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-08 18:39:21,813 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-04-08 18:39:21,814 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-04-08 20:18:14,656 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-04-08 20:18:14,657 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-04-08 20:18:14,658 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-08 20:18:14,658 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-08 20:18:14,659 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-04-08 20:18:14,660 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-04-08 20:19:27,610 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-04-08 20:19:27,611 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-04-08 20:19:27,612 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-08 20:19:27,612 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-08 20:19:27,613 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-04-08 20:19:27,614 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-04-08 21:16:26,002 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-04-08 21:16:26,003 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-04-08 21:16:26,003 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-08 21:16:26,004 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-08 21:16:26,005 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-04-08 21:16:26,006 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-04-08 21:21:43,183 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-04-08 21:21:43,184 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-04-08 21:21:43,184 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-08 21:21:43,185 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-08 21:21:43,186 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-04-08 21:21:43,187 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-04-08 21:36:35,562 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-04-08 21:36:35,562 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-04-08 21:36:35,563 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-08 21:36:35,563 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-08 21:36:35,564 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-04-08 21:36:35,565 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-04-08 23:00:00,410 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-04-08 23:00:00,411 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-04-08 23:00:00,412 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-08 23:00:00,413 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-08 23:00:00,414 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-04-08 23:00:00,414 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-04-08 23:02:24,224 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-04-08 23:02:24,225 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-04-08 23:02:24,225 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-08 23:02:24,226 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-08 23:02:24,227 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-04-08 23:02:24,227 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-04-08 23:18:11,862 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-04-08 23:18:11,862 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-04-08 23:18:11,863 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-08 23:18:11,864 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-08 23:18:11,865 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-04-08 23:18:11,865 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-04-08 23:42:05,514 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-04-08 23:42:05,516 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-04-08 23:42:05,516 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-08 23:42:05,516 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-08 23:42:05,518 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-04-08 23:42:05,518 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-04-08 23:43:00,864 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-04-08 23:43:00,864 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-04-08 23:43:00,865 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-08 23:43:00,865 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-08 23:43:00,866 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-04-08 23:43:00,867 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-04-08 23:48:53,119 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-04-08 23:48:53,120 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-04-08 23:48:53,120 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-08 23:48:53,122 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-08 23:48:53,123 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-04-08 23:48:53,124 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-04-08 23:49:27,299 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-04-08 23:49:27,299 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-04-08 23:49:27,300 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-08 23:49:27,301 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-08 23:49:27,302 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-04-08 23:49:27,302 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-04-08 23:50:07,234 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-04-08 23:50:07,235 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-04-08 23:50:07,235 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-08 23:50:07,236 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-08 23:50:07,237 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-04-08 23:50:07,238 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-04-08 23:51:24,797 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-04-08 23:51:24,797 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-04-08 23:51:24,798 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-08 23:51:24,799 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-08 23:51:24,800 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-04-08 23:51:24,800 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-04-09 13:18:55,479 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-04-09 13:18:55,480 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-04-09 13:18:55,481 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-09 13:18:55,482 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-09 13:18:55,484 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-04-09 13:18:55,485 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-04-09 13:21:25,576 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-04-09 13:21:25,577 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-04-09 13:21:25,578 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-09 13:21:25,579 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-09 13:21:25,580 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-04-09 13:21:25,581 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-04-09 13:44:06,842 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-04-09 13:44:06,842 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-04-09 13:44:06,843 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-09 13:44:06,843 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-09 13:44:06,844 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-04-09 13:44:06,845 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-04-09 14:04:18,274 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-04-09 14:04:18,275 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-04-09 14:04:18,275 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-09 14:04:18,276 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-09 14:04:18,277 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-04-09 14:04:18,278 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-04-09 14:21:23,656 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-04-09 14:21:23,657 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-04-09 14:21:23,658 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-09 14:21:23,658 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-09 14:21:23,659 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-04-09 14:21:23,660 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-04-09 14:21:59,981 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-04-09 14:21:59,981 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-04-09 14:21:59,982 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-09 14:21:59,982 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-09 14:21:59,983 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-04-09 14:21:59,984 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-04-09 14:22:46,823 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-04-09 14:22:46,824 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-04-09 14:22:46,824 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-09 14:22:46,825 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-09 14:22:46,826 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-04-09 14:22:46,826 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-04-09 14:30:31,737 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-04-09 14:30:31,738 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-04-09 14:30:31,738 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-09 14:30:31,739 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-09 14:30:31,740 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-04-09 14:30:31,740 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-04-09 14:40:20,426 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-04-09 14:40:20,427 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-04-09 14:40:20,428 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-09 14:40:20,428 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-09 14:40:20,429 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-04-09 14:40:20,429 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-04-09 14:47:03,055 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-04-09 14:47:03,056 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-04-09 14:47:03,056 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-09 14:47:03,057 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-09 14:47:03,058 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-04-09 14:47:03,059 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-04-09 14:54:37,449 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-04-09 14:54:37,450 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-04-09 14:54:37,451 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-09 14:54:37,452 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-09 14:54:37,453 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-04-09 14:54:37,454 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-04-09 15:05:29,721 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-04-09 15:05:29,723 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-04-09 15:05:29,723 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-09 15:05:29,724 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-09 15:05:29,726 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-04-09 15:05:29,726 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-04-09 15:11:12,481 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-04-09 15:11:12,482 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-04-09 15:11:12,482 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-09 15:11:12,483 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-09 15:11:12,484 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-04-09 15:11:12,484 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-04-09 15:22:33,866 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-04-09 15:22:33,867 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-04-09 15:22:33,867 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-09 15:22:33,868 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-09 15:22:33,869 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-04-09 15:22:33,869 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-04-09 15:42:07,822 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-04-09 15:42:07,822 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-04-09 15:42:07,823 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-09 15:42:07,824 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-09 15:42:07,825 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-04-09 15:42:07,825 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-04-09 16:02:32,054 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-04-09 16:02:32,055 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-04-09 16:02:32,055 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-09 16:02:32,056 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-09 16:02:32,056 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-04-09 16:02:32,057 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-04-16 15:59:00,428 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-04-16 15:59:00,429 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-04-16 15:59:00,430 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-16 15:59:00,431 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-16 15:59:00,432 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-04-16 15:59:00,432 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-04-16 15:59:49,325 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-04-16 15:59:49,326 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-04-16 15:59:49,326 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-16 15:59:49,327 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-16 15:59:49,328 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-04-16 15:59:49,328 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-04-16 17:06:34,427 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-04-16 17:06:34,428 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-04-16 17:06:34,429 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-16 17:06:34,429 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-16 17:06:34,430 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-04-16 17:06:34,431 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-04-16 17:07:09,473 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-04-16 17:07:09,474 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-04-16 17:07:09,474 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-16 17:07:09,475 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-16 17:07:09,476 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-04-16 17:07:09,477 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-04-16 17:07:55,875 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-04-16 17:07:55,876 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-04-16 17:07:55,876 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-16 17:07:55,877 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-16 17:07:55,878 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-04-16 17:07:55,878 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-04-16 17:18:47,831 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-04-16 17:18:47,832 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-04-16 17:18:47,833 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-16 17:18:47,833 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-16 17:18:47,834 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-04-16 17:18:47,834 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-04-16 17:19:32,070 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-04-16 17:19:32,071 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-04-16 17:19:32,072 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-16 17:19:32,072 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-16 17:19:32,073 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-04-16 17:19:32,074 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-04-16 20:38:38,184 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-04-16 20:38:38,185 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-04-16 20:38:38,186 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-16 20:38:38,187 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-16 20:38:38,188 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-04-16 20:38:38,189 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-04-16 20:39:41,324 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-04-16 20:39:41,325 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-04-16 20:39:41,326 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-16 20:39:41,326 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-16 20:39:41,327 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-04-16 20:39:41,327 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-04-16 20:43:19,921 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-04-16 20:43:19,922 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-04-16 20:43:19,922 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-16 20:43:19,923 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-16 20:43:19,924 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-04-16 20:43:19,924 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-04-16 20:44:52,449 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-04-16 20:44:52,449 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-04-16 20:44:52,450 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-16 20:44:52,451 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-16 20:44:52,452 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-04-16 20:44:52,453 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-04-16 20:45:23,594 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-04-16 20:45:23,595 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-04-16 20:45:23,596 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-16 20:45:23,597 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-16 20:45:23,598 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-04-16 20:45:23,599 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-04-16 20:49:16,039 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-04-16 20:49:16,040 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-04-16 20:49:16,040 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-16 20:49:16,041 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-16 20:49:16,042 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-04-16 20:49:16,043 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-04-16 20:52:16,727 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-04-16 20:52:16,728 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-04-16 20:52:16,729 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-16 20:52:16,729 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-16 20:52:16,730 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-04-16 20:52:16,731 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-04-16 20:52:47,201 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-04-16 20:52:47,201 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-04-16 20:52:47,202 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-16 20:52:47,203 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-16 20:52:47,204 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-04-16 20:52:47,204 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-04-16 20:54:30,822 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-04-16 20:54:30,822 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-04-16 20:54:30,823 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-16 20:54:30,824 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-16 20:54:30,824 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-04-16 20:54:30,825 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-04-16 20:55:09,949 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-04-16 20:55:09,950 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-04-16 20:55:09,951 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-16 20:55:09,951 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-16 20:55:09,952 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-04-16 20:55:09,953 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-04-16 20:56:04,955 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-04-16 20:56:04,955 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-04-16 20:56:04,956 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-16 20:56:04,957 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-16 20:56:04,958 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-04-16 20:56:04,959 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-04-16 20:56:37,613 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-04-16 20:56:37,614 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-04-16 20:56:37,614 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-16 20:56:37,615 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-16 20:56:37,616 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-04-16 20:56:37,617 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-04-16 20:57:02,486 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-04-16 20:57:02,487 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-04-16 20:57:02,488 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-16 20:57:02,489 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-16 20:57:02,490 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-04-16 20:57:02,492 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-04-16 21:58:47,470 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-04-16 21:58:47,471 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-04-16 21:58:47,471 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-16 21:58:47,472 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-16 21:58:47,473 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-04-16 21:58:47,474 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-04-16 22:06:30,962 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-04-16 22:06:30,962 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-04-16 22:06:30,963 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-16 22:06:30,964 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-16 22:06:30,965 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-04-16 22:06:30,965 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-04-16 22:28:54,879 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-04-16 22:28:54,880 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-04-16 22:28:54,880 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-16 22:28:54,881 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-16 22:28:54,882 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-04-16 22:28:54,882 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-04-17 15:55:45,121 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-04-17 15:55:45,123 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-04-17 15:55:45,123 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-17 15:55:45,124 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-17 15:55:45,125 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-04-17 15:55:45,126 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-04-17 15:56:31,681 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-04-17 15:56:31,682 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-04-17 15:56:31,682 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-17 15:56:31,683 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-17 15:56:31,684 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-04-17 15:56:31,685 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-04-17 16:02:56,050 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-04-17 16:02:56,051 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-04-17 16:02:56,052 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-17 16:02:56,052 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-17 16:02:56,053 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-04-17 16:02:56,054 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-04-17 16:03:51,236 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-04-17 16:03:51,236 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-04-17 16:03:51,237 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-17 16:03:51,238 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-17 16:03:51,239 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-04-17 16:03:51,240 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-04-17 16:06:25,945 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-04-17 16:06:25,946 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-04-17 16:06:25,946 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-17 16:06:25,947 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-17 16:06:25,948 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-04-17 16:06:25,949 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-04-17 21:25:58,559 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-04-17 21:25:58,560 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-04-17 21:25:58,560 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-17 21:25:58,561 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-17 21:25:58,562 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-04-17 21:25:58,563 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-04-17 21:36:06,088 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-04-17 21:36:06,089 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-04-17 21:36:06,089 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-17 21:36:06,090 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-17 21:36:06,091 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-04-17 21:36:06,092 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-04-17 22:10:09,756 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-04-17 22:10:09,757 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-04-17 22:10:09,758 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-17 22:10:09,759 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-17 22:10:09,760 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-04-17 22:10:09,762 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-04-25 14:56:21,896 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-04-25 14:56:21,897 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-04-25 14:56:21,899 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-25 14:56:21,900 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-25 14:56:21,901 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-04-25 14:56:21,902 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-04-25 15:03:24,364 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-04-25 15:03:24,365 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-04-25 15:03:24,366 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-25 15:03:24,367 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-25 15:03:24,368 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-04-25 15:03:24,368 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-04-25 15:04:11,179 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-04-25 15:04:11,180 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-04-25 15:04:11,181 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-25 15:04:11,181 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-25 15:04:11,182 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-04-25 15:04:11,183 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-04-25 17:28:07,129 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-04-25 17:28:07,131 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-04-25 17:28:07,131 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-25 17:28:07,132 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-04-25 17:28:07,133 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-04-25 17:28:07,134 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-05-02 17:49:52,763 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-05-02 17:49:52,764 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-05-02 17:49:52,765 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-05-02 17:49:52,766 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-05-02 17:49:52,767 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-05-02 17:49:52,767 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-05-02 17:51:27,523 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-05-02 17:51:27,524 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-05-02 17:51:27,524 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-05-02 17:51:27,525 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-05-02 17:51:27,526 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-05-02 17:51:27,527 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-05-02 17:58:26,607 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-05-02 17:58:26,608 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-05-02 17:58:26,609 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-05-02 17:58:26,610 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-05-02 17:58:26,610 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-05-02 17:58:26,611 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-05-02 18:33:25,635 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-05-02 18:33:25,636 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-05-02 18:33:25,637 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-05-02 18:33:25,638 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-05-02 18:33:25,639 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-05-02 18:33:25,640 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-05-02 18:36:42,736 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-05-02 18:36:42,737 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-05-02 18:36:42,738 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-05-02 18:36:42,739 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-05-02 18:36:42,740 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-05-02 18:36:42,741 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-05-02 22:00:34,356 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-05-02 22:00:34,357 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-05-02 22:00:34,358 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-05-02 22:00:34,359 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-05-02 22:00:34,359 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-05-02 22:00:34,360 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-05-02 23:00:18,404 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-05-02 23:00:18,405 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-05-02 23:00:18,406 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-05-02 23:00:18,407 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-05-02 23:00:18,408 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-05-02 23:00:18,409 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-05-02 23:02:24,959 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-05-02 23:02:24,960 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-05-02 23:02:24,961 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-05-02 23:02:24,961 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-05-02 23:02:24,962 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-05-02 23:02:24,964 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-05-02 23:03:16,491 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-05-02 23:03:16,492 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-05-02 23:03:16,493 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-05-02 23:03:16,493 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-05-02 23:03:16,494 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-05-02 23:03:16,495 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-05-02 23:08:31,054 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-05-02 23:08:31,055 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-05-02 23:08:31,056 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-05-02 23:08:31,056 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-05-02 23:08:31,058 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-05-02 23:08:31,058 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-05-02 23:16:21,355 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-05-02 23:16:21,355 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-05-02 23:16:21,356 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-05-02 23:16:21,357 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-05-02 23:16:21,357 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-05-02 23:16:21,358 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-05-02 23:16:55,315 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-05-02 23:16:55,316 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-05-02 23:16:55,316 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-05-02 23:16:55,317 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-05-02 23:16:55,318 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-05-02 23:16:55,319 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-05-02 23:35:35,127 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-05-02 23:35:35,129 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-05-02 23:35:35,129 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-05-02 23:35:35,130 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-05-02 23:35:35,131 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-05-02 23:35:35,132 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-05-03 00:01:15,708 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-05-03 00:01:15,709 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-05-03 00:01:15,710 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-05-03 00:01:15,711 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-05-03 00:01:15,713 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-05-03 00:01:15,714 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-05-03 00:28:59,909 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-05-03 00:28:59,910 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-05-03 00:28:59,911 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-05-03 00:28:59,912 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-05-03 00:28:59,913 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-05-03 00:28:59,913 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-05-03 19:46:44,309 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-05-03 19:46:44,310 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-05-03 19:46:44,310 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-05-03 19:46:44,311 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-05-03 19:46:44,312 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-05-03 19:46:44,312 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-05-03 20:58:28,546 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-05-03 20:58:28,547 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-05-03 20:58:28,548 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-05-03 20:58:28,549 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-05-03 20:58:28,550 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-05-03 20:58:28,551 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-05-03 21:20:40,529 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-05-03 21:20:40,530 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-05-03 21:20:40,531 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-05-03 21:20:40,532 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-05-03 21:20:40,533 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-05-03 21:20:40,533 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-05-03 21:29:05,561 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-05-03 21:29:05,562 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-05-03 21:29:05,563 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-05-03 21:29:05,564 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-05-03 21:29:05,565 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-05-03 21:29:05,565 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-05-03 21:30:00,506 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-05-03 21:30:00,507 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-05-03 21:30:00,508 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-05-03 21:30:00,508 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-05-03 21:30:00,509 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-05-03 21:30:00,510 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-05-03 21:39:54,616 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-05-03 21:39:54,617 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-05-03 21:39:54,617 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-05-03 21:39:54,618 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-05-03 21:39:54,620 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-05-03 21:39:54,620 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-05-03 21:55:14,713 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-05-03 21:55:14,714 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-05-03 21:55:14,715 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-05-03 21:55:14,715 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-05-03 21:55:14,717 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-05-03 21:55:14,718 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-05-03 22:03:54,592 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-05-03 22:03:54,593 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-05-03 22:03:54,594 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-05-03 22:03:54,595 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-05-03 22:03:54,596 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-05-03 22:03:54,597 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-05-03 22:11:16,341 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-05-03 22:11:16,342 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-05-03 22:11:16,343 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-05-03 22:11:16,344 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-05-03 22:11:16,345 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-05-03 22:11:16,346 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-05-03 22:38:02,654 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-05-03 22:38:02,655 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-05-03 22:38:02,655 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-05-03 22:38:02,656 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-05-03 22:38:02,657 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-05-03 22:38:02,658 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-05-03 22:40:01,843 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-05-03 22:40:01,844 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-05-03 22:40:01,845 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-05-03 22:40:01,845 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-05-03 22:40:01,847 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-05-03 22:40:01,847 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-05-03 22:41:10,828 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-05-03 22:41:10,828 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-05-03 22:41:10,829 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-05-03 22:41:10,830 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-05-03 22:41:10,831 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-05-03 22:41:10,831 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-05-03 22:44:27,572 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-05-03 22:44:27,573 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-05-03 22:44:27,573 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-05-03 22:44:27,574 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-05-03 22:44:27,575 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-05-03 22:44:27,576 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-05-03 23:13:36,825 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-05-03 23:13:36,826 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-05-03 23:13:36,827 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-05-03 23:13:36,828 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-05-03 23:13:36,829 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-05-03 23:13:36,830 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-05-03 23:56:19,030 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-05-03 23:56:19,031 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-05-03 23:56:19,031 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-05-03 23:56:19,032 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-05-03 23:56:19,033 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-05-03 23:56:19,034 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-05-04 13:22:56,121 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-05-04 13:22:56,122 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-05-04 13:22:56,123 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-05-04 13:22:56,123 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-05-04 13:22:56,124 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-05-04 13:22:56,125 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-05-04 13:23:51,361 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-05-04 13:23:51,362 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-05-04 13:23:51,363 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-05-04 13:23:51,364 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-05-04 13:23:51,366 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-05-04 13:23:51,367 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-05-04 13:25:17,893 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-05-04 13:25:17,893 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-05-04 13:25:17,894 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-05-04 13:25:17,895 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-05-04 13:25:17,895 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-05-04 13:25:17,896 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-05-04 13:28:07,504 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-05-04 13:28:07,505 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-05-04 13:28:07,506 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-05-04 13:28:07,507 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-05-04 13:28:07,508 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-05-04 13:28:07,509 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-05-04 14:06:27,339 [INFO] Remote TPU is not linked into jax; skipping remote TPU.
+2023-05-04 14:06:27,340 [INFO] Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+2023-05-04 14:06:27,340 [INFO] Unable to initialize backend 'cuda': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-05-04 14:06:27,341 [INFO] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+2023-05-04 14:06:27,343 [INFO] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+2023-05-04 14:06:27,344 [INFO] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+2023-05-09 17:30:51,697 [INFO] 
+Limited Total Variation Regularization Support Detected! 
+---> CVXPY is not installed. 
+---> Many Total Variation Methods require CVXPY including: 
+---> velocity, acceleration, jerk, jerk_sliding, smooth_acceleration
+---> Please install CVXPY to use these methods.
+---> Recommended to also install MOSEK and obtain a MOSEK license.
+You can still use: total_variation_regularization.iterative_velocity
+
+2023-05-09 17:30:51,700 [INFO] 
+Limited Linear Model Support Detected! 
+---> PYCHEBFUN is not installed. 
+---> Install pychebfun to use chebfun derivatives (https://github.com/pychebfun/pychebfun/) 
+You can still use other methods 
+
+2023-05-09 17:30:51,701 [INFO] 
+Limited Linear Model Support Detected! 
+---> CVXPY is not installed. 
+---> Install CVXPY to use lineardiff derivatives 
+You can still use other methods 
+
+2023-05-09 17:33:22,045 [INFO] 
+Limited Total Variation Regularization Support Detected! 
+---> CVXPY is not installed. 
+---> Many Total Variation Methods require CVXPY including: 
+---> velocity, acceleration, jerk, jerk_sliding, smooth_acceleration
+---> Please install CVXPY to use these methods.
+---> Recommended to also install MOSEK and obtain a MOSEK license.
+You can still use: total_variation_regularization.iterative_velocity
+
+2023-05-09 17:33:22,047 [INFO] 
+Limited Linear Model Support Detected! 
+---> PYCHEBFUN is not installed. 
+---> Install pychebfun to use chebfun derivatives (https://github.com/pychebfun/pychebfun/) 
+You can still use other methods 
+
+2023-05-09 17:33:22,048 [INFO] 
+Limited Linear Model Support Detected! 
+---> CVXPY is not installed. 
+---> Install CVXPY to use lineardiff derivatives 
+You can still use other methods 
+
+2023-05-09 17:34:15,856 [INFO] 
+Limited Total Variation Regularization Support Detected! 
+---> CVXPY is not installed. 
+---> Many Total Variation Methods require CVXPY including: 
+---> velocity, acceleration, jerk, jerk_sliding, smooth_acceleration
+---> Please install CVXPY to use these methods.
+---> Recommended to also install MOSEK and obtain a MOSEK license.
+You can still use: total_variation_regularization.iterative_velocity
+
+2023-05-09 17:34:15,858 [INFO] 
+Limited Linear Model Support Detected! 
+---> PYCHEBFUN is not installed. 
+---> Install pychebfun to use chebfun derivatives (https://github.com/pychebfun/pychebfun/) 
+You can still use other methods 
+
+2023-05-09 17:34:15,859 [INFO] 
+Limited Linear Model Support Detected! 
+---> CVXPY is not installed. 
+---> Install CVXPY to use lineardiff derivatives 
+You can still use other methods 
+
+2023-05-23 18:10:31,040 [ERROR] Task was destroyed but it is pending!
+task: <Task pending name='Task-1' coro=<Kernel.poll_control_queue() running at /Users/pongpisit/anaconda3/envs/pysr/lib/python3.10/site-packages/ipykernel/kernelbase.py:279> wait_for=<Future finished result=[<zmq.sugar.fr...t 0x187ba6090>, <zmq.sugar.fr...t 0x114fe1a60>, <zmq.sugar.fr...t 0x11085efb0>, <zmq.sugar.fr...t 0x1ccbeb8a0>, <zmq.sugar.fr...t 0x1ccbe4880>, <zmq.sugar.fr...t 0x1ccbe57a0>, ...]> cb=[_chain_future.<locals>._call_set_state() at /Users/pongpisit/anaconda3/envs/pysr/lib/python3.10/asyncio/futures.py:392]>
+2023-05-23 21:08:39,620 [ERROR] Task was destroyed but it is pending!
+task: <Task pending name='Task-1' coro=<Kernel.poll_control_queue() running at /Users/pongpisit/anaconda3/envs/pysr/lib/python3.10/site-packages/ipykernel/kernelbase.py:279> wait_for=<Future finished result=[<zmq.sugar.fr...t 0x1caf94930>, <zmq.sugar.fr...t 0x1caf957a0>, <zmq.sugar.fr...t 0x1caf95dd0>, <zmq.sugar.fr...t 0x1caf96090>, <zmq.sugar.fr...t 0x1caf96140>, <zmq.sugar.fr...t 0x1caf968d0>, ...]> cb=[_chain_future.<locals>._call_set_state() at /Users/pongpisit/anaconda3/envs/pysr/lib/python3.10/asyncio/futures.py:392]>

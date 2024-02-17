@@ -1,0 +1,7 @@
+function W = get_proj_op(W,UB)
+
+    if ~isempty(UB)
+        W = W.*min,UB);
+    end
+
+end

@@ -1,0 +1,17 @@
+['X_pre', 'best_subsets', 'un', 'y_pre']
+form1 <- u_t ~ V5
+fit1 = brm(u_t ~ V5, data=derivatives, family=gaussian(), save_pars=save_pars(all=TRUE))
+form2 <- u_t ~ V4 + V5
+fit2 = brm(u_t ~ V4 + V5, data=derivatives, family=gaussian(), save_pars=save_pars(all=TRUE))
+form3 <- u_t ~ V3 + V4 + V5
+fit3 = brm(u_t ~ V3 + V4 + V5, data=derivatives, family=gaussian(), save_pars=save_pars(all=TRUE))
+form4 <- u_t ~ V3 + V4 + V5 + V8
+fit4 = brm(u_t ~ V3 + V4 + V5 + V8, data=derivatives, family=gaussian(), save_pars=save_pars(all=TRUE))
+form5 <- u_t ~ V1 + V2 + V3 + V4 + V5
+fit5 = brm(u_t ~ V1 + V2 + V3 + V4 + V5, data=derivatives, family=gaussian(), save_pars=save_pars(all=TRUE))
+form6 <- u_t ~ V1 + V2 + V3 + V4 + V5 + V8
+fit6 = brm(u_t ~ V1 + V2 + V3 + V4 + V5 + V8, data=derivatives, family=gaussian(), save_pars=save_pars(all=TRUE))
+form7 <- u_t ~ V1 + V2 + V3 + V4 + V5 + V7 + V8
+fit7 = brm(u_t ~ V1 + V2 + V3 + V4 + V5 + V7 + V8, data=derivatives, family=gaussian(), save_pars=save_pars(all=TRUE))
+form8 <- u_t ~ V1 + V2 + V3 + V4 + V5 + V6 + V7 + V8
+fit8 = brm(u_t ~ V1 + V2 + V3 + V4 + V5 + V6 + V7 + V8, data=derivatives, family=gaussian(), save_pars=save_pars(all=TRUE))

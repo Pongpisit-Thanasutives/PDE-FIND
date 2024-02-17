@@ -405,7 +405,7 @@ def print_pde(w, rhs_description, ut = 'u_t'):
 ##################################################################################
 ##################################################################################
 
-def TrainSTRidge(R, Ut, lam, d_tol, maxit = 25, STR_iters = 10, l0_penalty = None, normalize = 2, split = 0.8, print_best_tol = False):
+def TrainSTRidge(R, Ut, lam, d_tol, maxit = 25, STR_iters = 10, l0_penalty = None, multiply_l0=1, normalize = 2, split = 0.8, print_best_tol = False):
     """
     This function trains a predictor using STRidge.
 
@@ -431,6 +431,8 @@ def TrainSTRidge(R, Ut, lam, d_tol, maxit = 25, STR_iters = 10, l0_penalty = Non
     d_tol = float(d_tol)
     tol = d_tol
     if l0_penalty == None: l0_penalty = 0.001*np.linalg.cond(R)
+    l0_penalty = multiply_l0*l0_penalty
+    print("l0_penalty:", l0_penalty)
 
     # Get the standard least squares estimator
     w = np.zeros((D,1))
