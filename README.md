@@ -19,3 +19,6 @@ Using the uncertainty-penalized Bayesian information criterion (UBIC) originally
 }
 ```
 
+## Note
+[UBIC-play](https://github.com/Pongpisit-Thanasutives/UBIC-play) and [PDE-FIND](https://github.com/Pongpisit-Thanasutives/PDE-FIND) are the development versions used to produce recent results in the paper.
+
