@@ -22,4 +22,5 @@ Using the uncertainty-penalized Bayesian information criterion (UBIC) originally
 ## Note
 - [UBIC-play](https://github.com/Pongpisit-Thanasutives/UBIC-play) and [PDE-FIND](https://github.com/Pongpisit-Thanasutives/PDE-FIND) are the development versions used to produce recent results in the paper.
 - This repository with the PDE datasets included can be dowloaded at [this OneDrive link](https://1drv.ms/u/s!At4wi09gz845wWly-HvmQPhMqgl2?e=N9LyVK) (Password: UBIC).
+- Please refer to the ``3D_exp'' folder for the GS experiment
 
